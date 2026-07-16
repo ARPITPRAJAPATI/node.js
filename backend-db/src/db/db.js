@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 
 async function connectDB() {
-    await mongoose.connect("mongodb+srv://backend-database:Arpit2005@cluster0.6cxh2kd.mongodb.net/arush")
+    await mongoose.connect("/arush")
     console.log("db connected")
 }
 
