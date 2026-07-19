@@ -1,0 +1,88 @@
+.create-post-section {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 25px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.create-post-section h1 {
+  margin-bottom: 20px;
+}
+
+.create-post-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.create-post-section input[type="file"],
+.create-post-section input[type="text"] {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.create-post-section button {
+  padding: 10px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.create-post-section button:hover {
+  background-color: #45a049;
+}
+
+/* Feed container */
+.feed-section {
+  max-width: 600px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 10px;
+}
+
+/* Each post card */
+.post-card {
+  background: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease;
+}
+
+/* Hover effect */
+.post-card:hover {
+  transform: scale(1.02);
+}
+
+/* Image */
+.post-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Caption */
+.post-card p {
+  padding: 12px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* Empty state */
+.feed-section h2 {
+  text-align: center;
+  color: #aaa;
+}
